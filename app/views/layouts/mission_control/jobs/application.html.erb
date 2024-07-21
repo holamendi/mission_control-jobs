@@ -14,7 +14,11 @@
 <body>
 
 <section class="section">
-  <div class="container">
+  <div class="container"
+       data-controller="auto-refresh"
+       data-auto-refresh-enabled-value="true"
+       data-auto-refresh-interval-ms-value="1000"
+  >
     <%= render "layouts/mission_control/jobs/application_selection" %>
     <%= render "layouts/mission_control/jobs/flash" %>
     <%= render "layouts/mission_control/jobs/navigation" %>
